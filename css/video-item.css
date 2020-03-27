@@ -1,5 +1,8 @@
+
 .video-item {
-    width: 360px;
+    width: 25%;
+    padding: 0 .5rem 1.5rem .5rem;
+    box-sizing: border-box;
 }
 
 .video-item:hover {
@@ -9,6 +12,11 @@
 .video-item .video-info {
     margin-top: 0.75rem;
     display: flex;
+}
+
+.video-content .video-image {
+    width: 100%;
+    height: auto;
 }
 
 .video-info--left img.video-owner__avatar {
