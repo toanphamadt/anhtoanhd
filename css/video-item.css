@@ -1,0 +1,32 @@
+.video-item {
+    width: 360px;
+}
+
+.video-item:hover {
+    cursor: pointer;
+}
+
+.video-item .video-info {
+    margin-top: 0.75rem;
+    display: flex;
+}
+
+.video-info--left img.video-owner__avatar {
+    border-radius: 100px;
+    margin-right: 0.75rem;
+}
+
+.video-info .video-info--right {
+    flex-grow: 1;
+    padding-right: 0.5rem;
+}
+
+.video-info--right .video-info__title {
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.video-info--right .video-owner__name, .video-info--right .video-info__watching {
+    color: #666666;
+}
