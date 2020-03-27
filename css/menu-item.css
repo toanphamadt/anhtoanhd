@@ -1,0 +1,27 @@
+.menu {
+    text-decoration: none;
+    color: #222222;
+}
+
+.menu-item {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.menu-item:hover {
+    background-color: #EFEFEE;
+}
+
+.menu-item .menu-icon {
+    margin-right: 24px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item .menu-title {
+    flex-grow: 1;
+}
